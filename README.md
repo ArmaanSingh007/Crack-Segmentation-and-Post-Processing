@@ -4,7 +4,9 @@ Goal: To create pixelwise masks to segment the cracks in the images, focusing on
 
 Important note: We use LABELME to label the image .
 
-Conclusion: we do segmentation of unsupervised data by Two clustering method K-means and DBSCAN in which DBSCAN is the best choice among them. K-means clustering is quick and simple but struggles with irregular crack shapes and noise whereas DBSCAN More robust, handles noise better, and works well with complex shapes. Our recommendation is ' DBSCAN is generally more reliable for crack detection in complex, noisy environments and it requires less post-processing than K-means' .
+Conclusion: we do segmentation of unsupervised data by Two clustering method K-means and DBSCAN in which DBSCAN is the best choice among them. K-means clustering is quick and simple but struggles with irregular crack shapes and noise whereas DBSCAN More robust, handles noise better, and works well with complex shapes. Our recommendation is ' DBSCAN is generally more reliable for crack detection in complex, noisy environments and it requires less post-processing than K-means'.
+
+Disclaimer: This project has been done by Armaan Singh and Kintur raja.
 
 
 
