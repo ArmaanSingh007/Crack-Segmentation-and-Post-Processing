@@ -103,11 +103,11 @@ def visualize_results(image, true_mask, pred_mask, cleaned_mask, title_prefix='O
     plt.show()
 
 
-# Example usage
-train_img_dir = r'C:\Users\Armaan\OneDrive\Desktop\Projecttask2\Data\Training data\Imagefile'
-train_json_dir = r'C:\Users\Armaan\OneDrive\Desktop\Projecttask2\Data\Training data\JSONfile'
-val_img_dir = r'C:\Users\Armaan\OneDrive\Desktop\Projecttask2\Data\Validation data\Imagefile'
-val_json_dir = r'C:\Users\Armaan\OneDrive\Desktop\Projecttask2\Data\Validation data\JSONfile'
+# Example usage (your file path)
+train_img_dir = r''
+train_json_dir = r''
+val_img_dir = r''
+val_json_dir = r''
 
 train_loader, val_loader = get_dataloaders(train_img_dir, train_json_dir, val_img_dir, val_json_dir)
 
